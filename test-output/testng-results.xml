@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-26T17:19:09 IST" name="Suite" finished-at="2023-03-26T17:19:17 IST" duration-ms="8175">
+    <groups>
+      <group name="sanity">
+        <method signature="Testing.signout()[pri:0, instance:xyztestingTestng.Testing@35ef1869]" name="signout" class="xyztestingTestng.Testing"/>
+        <method signature="Testing.signup()[pri:0, instance:xyztestingTestng.Testing@35ef1869]" name="signup" class="xyztestingTestng.Testing"/>
+        <method signature="Testing2.signout()[pri:0, instance:xyztestingTestng.Testing2@61df66b6]" name="signout" class="xyztestingTestng.Testing2"/>
+        <method signature="Testing2.signup()[pri:0, instance:xyztestingTestng.Testing2@61df66b6]" name="signup" class="xyztestingTestng.Testing2"/>
+      </group> <!-- sanity -->
+      <group name="retesting">
+        <method signature="Testing.signin()[pri:0, instance:xyztestingTestng.Testing@35ef1869]" name="signin" class="xyztestingTestng.Testing"/>
+        <method signature="Testing.signout()[pri:0, instance:xyztestingTestng.Testing@35ef1869]" name="signout" class="xyztestingTestng.Testing"/>
+        <method signature="Testing2.signin()[pri:0, instance:xyztestingTestng.Testing2@61df66b6]" name="signin" class="xyztestingTestng.Testing2"/>
+        <method signature="Testing2.signout()[pri:0, instance:xyztestingTestng.Testing2@61df66b6]" name="signout" class="xyztestingTestng.Testing2"/>
+      </group> <!-- retesting -->
+    </groups>
+    <test started-at="2023-03-26T17:19:09 IST" name="Test" finished-at="2023-03-26T17:19:17 IST" duration-ms="8175">
+      <class name="xyztestingTestng.Testing">
+        <test-method signature="signin()[pri:0, instance:xyztestingTestng.Testing@35ef1869]" started-at="2023-03-26T17:19:09 IST" name="signin" finished-at="2023-03-26T17:19:13 IST" duration-ms="4036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="signout()[pri:0, instance:xyztestingTestng.Testing@35ef1869]" started-at="2023-03-26T17:19:09 IST" name="signout" finished-at="2023-03-26T17:19:13 IST" duration-ms="4041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+        <test-method signature="signup()[pri:0, instance:xyztestingTestng.Testing@35ef1869]" started-at="2023-03-26T17:19:09 IST" name="signup" finished-at="2023-03-26T17:19:13 IST" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- xyztestingTestng.Testing -->
+      <class name="xyztestingTestng.Testing2">
+        <test-method signature="signout()[pri:0, instance:xyztestingTestng.Testing2@61df66b6]" started-at="2023-03-26T17:19:09 IST" name="signout" finished-at="2023-03-26T17:19:13 IST" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+        <test-method signature="signin()[pri:0, instance:xyztestingTestng.Testing2@61df66b6]" started-at="2023-03-26T17:19:09 IST" name="signin" finished-at="2023-03-26T17:19:13 IST" duration-ms="4036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="signup()[pri:0, instance:xyztestingTestng.Testing2@61df66b6]" started-at="2023-03-26T17:19:13 IST" name="signup" finished-at="2023-03-26T17:19:17 IST" duration-ms="4016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- xyztestingTestng.Testing2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
